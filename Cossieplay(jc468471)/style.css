@@ -1,0 +1,230 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+}
+
+.hp{
+	background-color:#4A2D2D;
+	background-size:cover;
+	width:100%;
+	height:100vh;
+	
+}
+
+.hp h1{
+	
+color:white;
+
+font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+font-size:48px;
+text-align:center;
+padding-left:70px;
+
+}
+font{
+	background-color:hsla(23,5%,68%,0.12);
+	text-align:center;
+	position: relative;
+	color:black;
+	margin-left:17px;
+	
+}
+p{text-align:justify;
+color:white;
+margin-top:auto;
+}	
+
+
+nav li {
+	background-color:#F3EEEE;
+	color:black;
+	
+ 	display:inline-block;
+   text-align:left;
+   font-size:18px;
+  
+
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	padding-left:100px;
+	padding-right:48px;
+	align-content:center;
+	text-decoration: none;
+
+}
+
+.cosplay ul li a{
+	
+	font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	padding-left:10px;
+	padding-right:10px;
+	text-decoration: none;
+	color:black;
+}
+
+a:hover { 
+    background-color:grey;
+	text-align: center;
+
+}
+
+.slider{
+	width:70%;
+	height:80%;
+	margin: 0px auto;
+	margin-top:30px;
+	
+}
+font
+	
+
+.cosplay{background-color:#4A2D2D;}
+
+ h1{
+	background-color:#4A2D2D;
+	text-align:center;
+	font-size:48px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color:white;
+}
+
+.cosplaypara{
+	background-color:#4A2D2D;
+	
+	
+	padding-top:100px;
+	padding-right:100px;
+	padding-bottom:100px;
+	padding-left:100px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size:20px;
+	}
+	
+
+.cossieplaypara{
+	background-color:#4A2D2D;
+	background-size:cover;	
+
+	
+	padding-left:100px;
+	padding-right:100px;
+	padding-bottom:100px;
+	padding-top:100px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size:20px;	
+}
+img { max-width: 100% }
+
+#col1{
+	float:left;
+	width:100%;
+	margin:2em 1em 1em 15em;
+	}
+#col2{
+	text-align:justify;
+color:white;
+margin-top:auto;
+margin-left:5em;
+margin-right:5em;
+margin-bottom:5em;}	
+
+.annlist {
+background-color:#4A2D2D;
+background-size:cover;	
+padding-top:100px;
+padding-right:100px;
+padding-bottom:100px;
+padding-left:100px;
+font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+font-size:20px;	
+color:white;
+}
+.form {
+background-color:#4A2D2D	}
+.image{
+  float:right;
+  padding-right:300px;
+}
+
+.form{
+  float:left;
+}
+
+form{
+	background-color:#4A2D2D;
+	background-size:cover;
+
+
+	padding-top:100px;
+	padding-right:100px;
+	padding-left:150px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size:20px;	
+	color:white;
+}
+
+.signuppara{
+	background-color:#4A2D2D;
+	background-size:cover;	
+
+		padding-top:300px;
+	padding-left:600px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size:20px;	
+	font-color:white;
+}
+
+.partyguidepara {
+	background-color:#4A2D2D;
+	background-size:cover;	
+
+	padding-top:100px;
+	padding-right:100px;
+	padding-bottom:100px;
+	padding-left:100px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size:20px;	
+}
+li{color:white;}
+
+table{
+	
+	width:100%;
+	background-color:#4A2D2D;
+	background-size:auto;	
+
+	padding-top:40px;
+	padding-right:200px;
+	padding-bottom:40px;
+	padding-left:100px;
+	
+	
+}
+
+th,td{
+	border: 1px solid black;
+	background-color:white;
+	background-size:auto;	
+	
+	padding: 15px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+footer {
+	position: relative;
+  margin-top: 10px;
+  margin-bottom:50px;
+  text-align:center;
+  color:white;
+background-color:#4A2D2D;
+	
+}
+.button{
+	color:#000000;
+    padding: 15px 32px;
+    text-align:center;
+	
+	}
+	
+	

@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Cossieplay</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="responsive.css" rel="stylesheet"  media="screen and
+(max-width: 960px)">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+<div class="hp">
+<h1>Welcome to CossiePlay</h1>
+<nav>
+<ul>
+<li><a href="index.html"><font color="black">Home</font></a></li>
+<li><a href="cosplay.html"><font color="black">Cosplay</font></a></li>
+<li><a href="aboutus.html"><font color="black">About Us</font></a></li>
+<li><a href="announcements.html"><font color="black">Announcements</font></a></li>
+<li><a href="signup.html"><font color="black">Sign Up</font></a></li>
+<li><a href="guidelines.html"><font color="black">Guidelines</font></a></li>
+<li><a href="prices.html"><font color="black">Costume Prices</font></a></li>
+</ul>
+</nav>
+<div class="slider" style="style.css:800px">
+
+   
+  </div>
+
+  <img class="slider" src="images/alice-in-wonderland-872612_1280.jpg" width="1280" height="853" alt=""/>
+<img class="slider" src="images/book-fair-678264_1280.jpg" width="1280" height="853" alt=""/>
+<img class="slider" src="images/boromir-4-1478698.jpg" width="953" height="1535" alt=""/>
+ 
+  <img class="slider" src="images/devils-570861_1280.jpg" width="1280" height="853" alt=""/>  
+  <img class="slider" src="images/olaf-630522_1280.jpg" width="960" height="1280" alt=""/>
+  <img class="slider" src="images/party-1506740-640x480.jpg" width="640" height="480" alt=""/>
+ <img class="slider" src="images/sewing-hands-1418016.jpg" width="1200" height="928" alt=""/>
+ <img class="slider" src="images/spiderman-in-nature-2-1258899-640x480.jpg" width="640" height="480" alt=""/>
+  <img class="slider" src="images/we-re-rabbits-1439192-1279x850.jpg" width="1279" height="851" alt=""/>
+  <img class="slider" src="images/winter-kingdom-798279_1920.jpg" width="1280" height="1920" alt=""/>
+  
+  <p> 
+ Cosplay, a portmanteau of the words costume play, is a performance art in which participants called cosplayers wear costumes and fashion accessories to represent a specific character. Cosplayers often interact to create a subculture and a broader use of the term "cosplay" applies to any costumed role-playing in venues apart from the stage. Any entity that lends itself to dramatic interpretation may be taken up as a subject and it is not unusual to see genders switched. Favorite sources include manga and anime, comic books and cartoons, video games, and live-action films and television series.The rapid growth in the number of people cosplaying as a hobby since 1990 has made the phenomenon a significant aspect of popular culture in Japan and some other parts of Asia and in the Western world. Cosplay events are common features of fan conventions and there are also dedicated conventions and local and international competitions, as well as social networks, websites and other forms of media centered on cosplay activities.
+ 
+  <br>
+  <br><br></p>
+
+</div>
+
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("slider");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2000); 
+}
+</script>
+
+<div>
+<footer><h3>Copyright@CossiePlay</h3></footer>
+
+
+
+</div>
+</body>
+</html>
